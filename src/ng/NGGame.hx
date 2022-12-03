@@ -3,7 +3,7 @@ package ng;
 /**
   Base class for the NGIN framework
   **/
-class NGGame extends hxd.App
+class NGGame
 {
     /**
       Width of the main game window.
@@ -22,9 +22,12 @@ class NGGame extends hxd.App
 
     public function new(width:Int, height:Int, title:String)
     {
-        super();
         this.width  = width;
         this.height = height;
         this.title  = title;
+    }
+
+    override function update(dt:Float) {
+        trace("Updating Game");
     }
 }
