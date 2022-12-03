@@ -11,7 +11,18 @@ class Ball extends NGObject
 
     override public function update(dt:Float) 
     {
-        this.x += 100 * dt;
-        this.y += 100 * dt;
+        this.x += this.dx * this.speed / 2 * dt;
+        this.y += this.dy * this.speed * dt;
+
+        if(this.x < 0 || this.x > 600)
+        {
+            this.dx = -this.dx;
+        }
+
+        if(this.y < 0 || this.y > 600)
+        {
+            this.dy = -this.dy;
+        }
     }
+
 }
