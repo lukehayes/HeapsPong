@@ -1,6 +1,6 @@
-package ngin;
+package ng;
 
-import ngin.NGBasic;
+import ng.NGBasic;
 
 /**
   Most classes in NGIN should extend this class.

@@ -1,4 +1,4 @@
-package ngin;
+package ng;
 
 /**
   Base class for the NGIN framework
