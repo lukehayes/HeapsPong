@@ -4,9 +4,12 @@ import ng.NGObject;
 
 class Ball extends NGObject
 {
+    var g : h2d.Graphics = null;
+
     public function new()
     {
         super();
+        this.g = new h2d.Graphics(s2d);
     }
 
     override public function update(dt:Float) 
