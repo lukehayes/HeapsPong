@@ -5,5 +5,8 @@ package ng;
   **/
 class NGBasic
 {
+    public function new()
+    {
+    }
 }
 
