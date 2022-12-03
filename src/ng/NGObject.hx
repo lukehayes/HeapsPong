@@ -42,5 +42,9 @@ class NGObject extends NGBasic
 
     /**
       Base update method that should be overriden **/
-    public function update(dt:Float) {}
+    override public function update(dt:Float) {}
+
+    /**
+      Base render method that should be overriden **/
+    public function render() {}
 }
