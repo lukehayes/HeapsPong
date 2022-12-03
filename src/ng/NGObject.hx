@@ -28,6 +28,10 @@ class NGObject extends NGBasic
     public var dx : Float = 1;
 
     /**
+      The objects speed**/
+    public var speed : Float = 400;
+
+    /**
       The y direction **/
     public var dy : Float = 1;
 
